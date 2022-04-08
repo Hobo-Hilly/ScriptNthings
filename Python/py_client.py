@@ -1,0 +1,18 @@
+#!/bin/env python
+
+import socket
+
+TCP_IP = '127.0.0.1'
+TCP_PORT = 5005
+BUFFER_SIZE = 1024
+MESSAGE = "Hello, Round Blue Marble!"
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) ## This is the single most IMP#   ORTANT line of code in this script.
+#   It is summoning the TCP socket and allowing us to submit data.
+
+s.connect((TCP_IP, TCP_PORT))
+s.send(MESSAGE)
+data = s.recv(BUFFER_SIZE)
+s.close()
+
+print "received data:", data
