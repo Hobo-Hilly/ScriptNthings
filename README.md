@@ -1,4 +1,4 @@
-# Serious note taking time. Now.. The finish line is right there Carl. Just keep pushingforward and before the end of the year you could have your own business and be on the way to a very easy life. Well, financially very well off and the ability to provide your daughter better than you could have ever imagined. We are right there now MUSH son!
+
 
 # IT pro notes Pentesting Tools: Scanners
 
