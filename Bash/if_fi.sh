@@ -25,7 +25,7 @@ then ## if x is less then z. print out "Ummm ...yeah... " to the screen
 
 else      ### this is an else statement that says else IF non of those conditoins are met at all. print out "Dude... board...
 	
-	echo " Dude. non of these match. so looks like it's back to the drawing board."
+	echo " Dude. none of these match. so looks like it's back to the drawing board."
 
 fi  ### This is the fi that closes the if block. ALERT: for every 'If' statement a 'fi' must be paid. lol stupid i know but helps me remember.
 
